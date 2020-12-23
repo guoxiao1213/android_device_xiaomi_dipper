@@ -108,7 +108,6 @@ vendor/lib/camera/components/com.qti.node.eisv2.so
 vendor/lib/camera/components/com.qti.node.eisv3.so
 vendor/lib/camera/components/com.qti.node.gpu.so
 vendor/lib/camera/components/com.qti.node.memcpy.so
-vendor/lib/camera/components/com.qti.node.remosaic.so
 vendor/lib/camera/components/com.qti.node.stich.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
 vendor/lib/camera/components/com.qti.node.watermark.so
@@ -127,6 +126,7 @@ vendor/lib/camera/components/com.qtistatic.stats.aec.so
 vendor/lib/camera/components/com.qtistatic.stats.af.so
 vendor/lib/camera/components/com.qtistatic.stats.awb.so
 vendor/lib/camera/components/com.qtistatic.stats.pdlib.so
+vendor/lib/camera/components/com.vidhance.node.eis.so
 vendor/lib/camera/components/com.xiaomi.node.mibokeh.so
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
 vendor/lib/camera/components/etc/model_back.dlc
@@ -219,8 +219,8 @@ vendor/lib/vendor.qti.gnss@3.0-service.so
 -product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 
 # IR
-vendor/lib64/hw/consumerir.default.so
-vendor/lib/hw/consumerir.default.so
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm710.so
+vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.sdm710.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
