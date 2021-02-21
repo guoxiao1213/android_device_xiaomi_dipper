@@ -107,11 +107,11 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
+        <item>2.74</item>
         <item>3.04</item>
-        <item>3.65</item>
-        <item>4.36</item>
-        <item>5.26</item>
-        <item>5.87</item>
+        <item>3.40</item>
+        <item>3.96</item>
+        <item>5.07</item>
         <item>5.87</item>
         <item>5.87</item>
         <item>9.59</item>
@@ -743,7 +743,7 @@
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 	
-	    <!-- If true, the display will be shifted around in ambient mode. -->
+    <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
 
     <bool name="config_displayBrightnessBucketsInDoze">true</bool>
