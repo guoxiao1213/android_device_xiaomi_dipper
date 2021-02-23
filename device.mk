@@ -87,3 +87,7 @@ PRODUCT_PACKAGES += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
+
+# ZRAM fstab
+PRODUCT_PACKAGES += \
+    fstab.zram
