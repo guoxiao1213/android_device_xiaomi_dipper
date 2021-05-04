@@ -48,7 +48,7 @@ on fs
     mkdir /dev/logfs 0771 system system
     mkdir /mnt/vendor/persist/stability 0755 system system
     mkdir /mnt/vendor/persist/misys 0755 system system
-    #+ add for watermark
+    # add for watermark
     mkdir /mnt/vendor/persist/camera 0777 root root
     chown system system /dev/tiload_node
     chmod 660 /dev/tiload_node
